@@ -1,3 +1,4 @@
+import { supabase } from "../utils/supabase/client"
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { Button } from "../components/ui/button";
